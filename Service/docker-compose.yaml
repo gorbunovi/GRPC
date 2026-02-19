@@ -17,7 +17,7 @@ services:
       - db_auth_vol:/var/lib/postgres/data
     networks:
       - server_net
-
+#
 
 volumes:
   db_auth_vol: {}
