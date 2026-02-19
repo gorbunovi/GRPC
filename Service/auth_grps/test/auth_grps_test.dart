@@ -1,0 +1,8 @@
+import 'package:auth_grps/auth_grps.dart';
+import 'package:test/test.dart';
+
+void main() {
+  test('calculate', () {
+    expect(calculate(), 42);
+  });
+}
